@@ -46,6 +46,10 @@ Clone the veewee project from source:
 Set the local gemset and ruby version within the current directory:
 
     $ rvm use ruby@veewee --create
+    
+If the above command gives you any errors similar to "RVM is not a function", you may have to run:
+
+    $ rvm get master --auto-dotfiles
 
 Run `bundle install` to install Gemfile dependencies for our local gemset:
 
